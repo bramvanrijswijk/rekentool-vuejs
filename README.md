@@ -1,4 +1,6 @@
-# rekentool
+# Rekentool
+
+Just a simple tool to fresh up your memory. I've used this project to learn Vue.
 
 ## Project setup
 ```
@@ -19,6 +21,3 @@ npm run build
 ```
 npm run lint
 ```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).

@@ -6,25 +6,25 @@
 </template>
 
 <script>
-    import Title from './components/Title.vue'
-    import Calculations from './components/Calculations.vue'
+import HeaderTitle from './components/HeaderTitle.vue'
+import Calculations from './components/Calculations.vue'
 
-    export default {
-        name: 'App',
-        components: {
-            'header-title': Title,
-            'calculations': Calculations
-        }
+export default {
+    components: {
+        HeaderTitle,
+        Calculations
     }
+}
 </script>
 
 <style>
-    #app {
-        font-family: Avenir, Helvetica, Arial, sans-serif;
-        -webkit-font-smoothing: antialiased;
-        -moz-osx-font-smoothing: grayscale;
-        text-align: center;
-        color: #2c3e50;
-        margin-top: 60px;
-    }
+#app {
+    font-family: Avenir, Helvetica, Arial, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #2c3e50;
+    margin-top: 60px;
+    margin-bottom: 120px;
+}
 </style>
